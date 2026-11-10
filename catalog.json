@@ -153,7 +153,10 @@
           "departure": "18:00",
           "return": "20:00",
           "included": [
-            "Cookies and tea (other inclusions to be confirmed)"
+            "Hotel transfer",
+            "Bosphorus boat tour",
+            "Cookies and tea",
+            "English and Russian guide"
           ]
         }
       ],
