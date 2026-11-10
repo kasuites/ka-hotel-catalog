@@ -38,9 +38,9 @@
         "ru": "Четыре варианта круиза по Босфору: с завтраком, обедом или лёгкими угощениями."
       },
       "fullDescription": {
-        "en": "Choose a morning, afternoon, sunset or moonlight cruise. Listed prices and times are taken from the supplied operator brochure and are subject to reconfirmation.",
-        "tr": "Sabah, öğleden sonra, gün batımı veya akşam turunu seçin. Fiyatlar ve saatler paylaşılan operatör broşüründendir; rezervasyon öncesi teyit edilir.",
-        "ru": "Выберите утренний, дневной, закатный или вечерний круиз. Цены и время указаны по буклету оператора и требуют подтверждения."
+        "tr": "İstanbul’un büyüleyici silüetini Boğaz’ın eşsiz manzarası eşliğinde keşfedin. Avrupa ve Asya kıtaları arasında süzülürken tarihi sarayların, görkemli köprülerin ve kıyı boyunca uzanan zarif yalıların güzelliğine tanıklık edin.\n\nİster güne sabahın huzuruyla başlayın, ister gün batımının altın tonlarını izleyin, ister akşam ışıkları altında İstanbul’un romantik atmosferini yaşayın. Dört farklı tur seçeneğimizle Boğaz’ın unutulmaz güzelliklerini keşfedin.",
+        "en": "Discover the timeless beauty of Istanbul from the waters of the Bosphorus. Sail between Europe and Asia as magnificent palaces, iconic bridges, and elegant waterfront mansions create an unforgettable panorama.\n\nFrom peaceful mornings to golden sunsets and enchanting evening lights, choose from four unique cruise experiences and see Istanbul from an extraordinary perspective.",
+        "ru": "Откройте для себя неповторимую красоту Стамбула во время круиза по Босфору. Насладитесь путешествием между Европой и Азией, любуясь великолепными дворцами, знаменитыми мостами и изящными особняками на берегу.\n\nУтреннее спокойствие, золотые краски заката или романтические огни вечернего города — выберите один из четырёх вариантов круиза и откройте для себя Стамбул с новой стороны."
       },
       "duration": null,
       "price": {
@@ -155,8 +155,8 @@
           "included": [
             "Hotel transfer",
             "Bosphorus boat tour",
-            "Cookies and tea",
-            "English and Russian guide"
+            "English and Russian guide",
+            "Cookies and tea"
           ]
         }
       ],
