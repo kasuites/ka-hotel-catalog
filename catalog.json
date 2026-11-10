@@ -48,7 +48,7 @@
         "currency": "EUR",
         "unit": "option",
         "displayMode": "from",
-        "note": "Listed operator brochure price; per-person basis not explicitly confirmed; card payments +10% per brochure"
+        "note": "Listed operator brochure price; cash payment only; per-person basis to be reconfirmed"
       },
       "media": {
         "cover": null,
@@ -144,9 +144,9 @@
         }
       ],
       "priceNote": {
-        "en": "Brochure prices. Credit card +10%. Final amount and availability require confirmation.",
-        "tr": "Broşür fiyatları. Kredi kartıyla +%10. Son tutar ve müsaitlik teyit edilir.",
-        "ru": "Цены из буклета. При оплате картой +10%. Итоговая сумма и наличие мест подтверждаются."
+        "en": "Cash payment only. Final amount and availability require confirmation.",
+        "tr": "Yalnızca nakit ödeme kabul edilir. Son tutar ve müsaitlik teyit edilir.",
+        "ru": "Оплата только наличными. Итоговая сумма и наличие мест подтверждаются."
       }
     },
     {
