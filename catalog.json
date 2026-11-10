@@ -1,14 +1,15 @@
 {
-  "schemaVersion": "1.0.0",
+  "schemaVersion": "2.0.0",
   "hotel": {
     "name": "KA Hotel & Suites",
-    "whatsappNumber": null,
+    "whatsappNumber": "902129682121",
     "defaultLanguage": "en",
     "supportedLanguages": [
       "en",
       "tr",
       "ru"
-    ]
+    ],
+    "logo": "logo.jpg"
   },
   "currency": "EUR",
   "categories": [
@@ -25,7 +26,7 @@
       "slug": "bosphorus-cruise",
       "category": "tour",
       "active": true,
-      "featured": false,
+      "featured": true,
       "title": {
         "en": "Bosphorus Cruise",
         "tr": "Boğaz Turu",
@@ -65,7 +66,7 @@
       "slug": "old-city-tour",
       "category": "tour",
       "active": true,
-      "featured": false,
+      "featured": true,
       "title": {
         "en": "Old City Tour",
         "tr": "Tarihi Yarımada Turu",
@@ -305,7 +306,7 @@
       "slug": "dinner-cruise",
       "category": "experience",
       "active": true,
-      "featured": false,
+      "featured": true,
       "title": {
         "en": "Dinner Cruise",
         "tr": "Akşam Yemekli Tekne Turu",
