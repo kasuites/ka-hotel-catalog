@@ -48,11 +48,25 @@
         "currency": "EUR",
         "unit": "option",
         "displayMode": "from",
-        "note": "Listed operator brochure price; cash payment only; per-person basis to be reconfirmed"
+        "note": "Listed operator brochure price; per-person basis not explicitly confirmed; card payments +10% per brochure"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/bosphorus-01.jpg",
+        "gallery": [
+          "assets/bosphorus-02.jpg",
+          "assets/bosphorus-03.png",
+          "assets/bosphorus-04.jpg",
+          "assets/bosphorus-05.jpg",
+          "assets/bosphorus-06.jpg",
+          "assets/bosphorus-07.jpg",
+          "assets/bosphorus-08.jpg",
+          "assets/bosphorus-09.webp",
+          "assets/bosphorus-10.jpg",
+          "assets/bosphorus-11.jpg",
+          "assets/bosphorus-12.jpg",
+          "assets/bosphorus-13.jpg",
+          "assets/bosphorus-14.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
@@ -139,17 +153,14 @@
           "departure": "18:00",
           "return": "20:00",
           "included": [
-            "Transfer",
-            "Boat tour (2-hour Bosphorus Moonlight Tour)",
-            "Cookies and tea",
-            "English and Russian guide"
+            "Cookies and tea (other inclusions to be confirmed)"
           ]
         }
       ],
       "priceNote": {
-        "en": "Cash payment only. Final amount and availability require confirmation.",
-        "tr": "Yalnızca nakit ödeme kabul edilir. Son tutar ve müsaitlik teyit edilir.",
-        "ru": "Оплата только наличными. Итоговая сумма и наличие мест подтверждаются."
+        "en": "Brochure prices. Cash payment only. Final amount and availability require confirmation.",
+        "tr": "Broşür fiyatları. Yalnızca nakit ödeme kabul edilir. Son tutar ve müsaitlik teyit edilir.",
+        "ru": "Цены из буклета. Оплата только наличными. Итоговая сумма и наличие мест подтверждаются."
       }
     },
     {
@@ -639,12 +650,11 @@
         "guestName",
         "serviceId",
         "date",
-        "adults"
+        "guestCount"
       ],
       "optional": [
         "roomNumber",
-        "children0to3",
-        "children4to6",
+        "preferredTime",
         "phone",
         "notes"
       ]
@@ -672,13 +682,6 @@
   "booking": {
     "method": "whatsapp_click_to_chat",
     "requiresGuestToPressSend": true,
-    "messageTemplate": "KA Hotel & Suites — Reservation Request\nService: {serviceTitle}\nGuest: {guestName}\nDate: {date}\nDetails: {details}\nPlease confirm availability and price.",
-    "childPricing": {
-      "freeAgeRange": "0-3",
-      "discountAgeRange": "4-6",
-      "discountPercent": 30,
-      "appliesTo": "per_person_priced_tours",
-      "note": "Estimated total; final amount confirmed by hotel"
-    }
+    "messageTemplate": "KA Hotel & Suites — Reservation Request\nService: {serviceTitle}\nGuest: {guestName}\nDate: {date}\nDetails: {details}\nPlease confirm availability and price."
   }
 }
