@@ -636,11 +636,12 @@
         "guestName",
         "serviceId",
         "date",
-        "guestCount"
+        "adults"
       ],
       "optional": [
         "roomNumber",
-        "preferredTime",
+        "children0to3",
+        "children4to6",
         "phone",
         "notes"
       ]
@@ -668,6 +669,13 @@
   "booking": {
     "method": "whatsapp_click_to_chat",
     "requiresGuestToPressSend": true,
-    "messageTemplate": "KA Hotel & Suites — Reservation Request\nService: {serviceTitle}\nGuest: {guestName}\nDate: {date}\nDetails: {details}\nPlease confirm availability and price."
+    "messageTemplate": "KA Hotel & Suites — Reservation Request\nService: {serviceTitle}\nGuest: {guestName}\nDate: {date}\nDetails: {details}\nPlease confirm availability and price.",
+    "childPricing": {
+      "freeAgeRange": "0-3",
+      "discountAgeRange": "4-6",
+      "discountPercent": 30,
+      "appliesTo": "per_person_priced_tours",
+      "note": "Estimated total; final amount confirmed by hotel"
+    }
   }
 }
