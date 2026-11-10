@@ -33,21 +33,22 @@
         "ru": "Круиз по Босфору"
       },
       "shortDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Four daily Bosphorus cruise departures with breakfast, lunch or light refreshments.",
+        "tr": "Kahvaltı, öğle yemeği veya hafif ikramlarla dört farklı Boğaz turu seçeneği.",
+        "ru": "Четыре варианта круиза по Босфору: с завтраком, обедом или лёгкими угощениями."
       },
       "fullDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Choose a morning, afternoon, sunset or moonlight cruise. Listed prices and times are taken from the supplied operator brochure and are subject to reconfirmation.",
+        "tr": "Sabah, öğleden sonra, gün batımı veya akşam turunu seçin. Fiyatlar ve saatler paylaşılan operatör broşüründendir; rezervasyon öncesi teyit edilir.",
+        "ru": "Выберите утренний, дневной, закатный или вечерний круиз. Цены и время указаны по буклету оператора и требуют подтверждения."
       },
       "duration": null,
       "price": {
-        "amount": null,
+        "amount": 20,
         "currency": "EUR",
-        "unit": null,
-        "displayMode": "on_request"
+        "unit": "option",
+        "displayMode": "from",
+        "note": "Listed operator brochure price; per-person basis not explicitly confirmed; card payments +10% per brochure"
       },
       "media": {
         "cover": null,
@@ -59,7 +60,94 @@
       "excluded": [],
       "pickupInformation": null,
       "bookingForm": "tour",
-      "availability": "on_request"
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "morning",
+          "title": {
+            "en": "Morning Cruise with Breakfast",
+            "tr": "Kahvaltılı Sabah Turu",
+            "ru": "Утренний круиз с завтраком"
+          },
+          "price": {
+            "amount": 25,
+            "currency": "EUR"
+          },
+          "departure": "10:00",
+          "return": "13:00",
+          "included": [
+            "Transfer",
+            "Boat tour",
+            "Breakfast",
+            "English and Russian guide",
+            "1-hour shopping stop on Asian side"
+          ]
+        },
+        {
+          "id": "afternoon",
+          "title": {
+            "en": "Afternoon Cruise with Lunch",
+            "tr": "Öğle Yemekli Tur",
+            "ru": "Дневной круиз с обедом"
+          },
+          "price": {
+            "amount": 35,
+            "currency": "EUR"
+          },
+          "departure": "13:15",
+          "return": "16:00",
+          "included": [
+            "Transfer",
+            "Boat tour",
+            "Lunch (drinks excluded)",
+            "English and Russian guide",
+            "45-minute shopping stop on Asian side"
+          ]
+        },
+        {
+          "id": "sunset",
+          "title": {
+            "en": "Sunset Cruise with Cookies & Tea",
+            "tr": "Çay ve Kurabiyeli Gün Batımı Turu",
+            "ru": "Круиз на закате с чаем и печеньем"
+          },
+          "price": {
+            "amount": 20,
+            "currency": "EUR"
+          },
+          "departure": "16:15",
+          "return": "19:00",
+          "included": [
+            "Transfer",
+            "Boat tour",
+            "Cookies and tea",
+            "English and Russian guide",
+            "45-minute shopping stop on Asian side"
+          ]
+        },
+        {
+          "id": "moonlight",
+          "title": {
+            "en": "Moonlight Cruise with Cookies & Tea",
+            "tr": "Çay ve Kurabiyeli Akşam Turu",
+            "ru": "Вечерний круиз с чаем и печеньем"
+          },
+          "price": {
+            "amount": 25,
+            "currency": "EUR"
+          },
+          "departure": "18:00",
+          "return": "20:00",
+          "included": [
+            "Cookies and tea (other inclusions to be confirmed)"
+          ]
+        }
+      ],
+      "priceNote": {
+        "en": "Brochure prices. Credit card +10%. Final amount and availability require confirmation.",
+        "tr": "Broşür fiyatları. Kredi kartıyla +%10. Son tutar ve müsaitlik teyit edilir.",
+        "ru": "Цены из буклета. При оплате картой +10%. Итоговая сумма и наличие мест подтверждаются."
+      }
     },
     {
       "id": "TOUR-002",
