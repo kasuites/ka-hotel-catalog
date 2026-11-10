@@ -1,0 +1,584 @@
+{
+  "schemaVersion": "1.0.0",
+  "hotel": {
+    "name": "KA Hotel & Suites",
+    "whatsappNumber": null,
+    "defaultLanguage": "en",
+    "supportedLanguages": [
+      "en",
+      "tr",
+      "ru"
+    ]
+  },
+  "currency": "EUR",
+  "categories": [
+    "tour",
+    "experience",
+    "private_tour",
+    "wellness",
+    "airport_transfer",
+    "chauffeur"
+  ],
+  "services": [
+    {
+      "id": "TOUR-001",
+      "slug": "bosphorus-cruise",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Bosphorus Cruise",
+        "tr": "Boğaz Turu",
+        "ru": "Круиз по Босфору"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-002",
+      "slug": "old-city-tour",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Old City Tour",
+        "tr": "Tarihi Yarımada Turu",
+        "ru": "Экскурсия по Старому городу"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-003",
+      "slug": "princes-islands",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Princes’ Islands",
+        "tr": "Prens Adaları",
+        "ru": "Принцевы острова"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-004",
+      "slug": "cappadocia-tour",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Cappadocia Tour",
+        "tr": "Kapadokya Turu",
+        "ru": "Тур в Каппадокию"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-005",
+      "slug": "bursa-uludag",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Bursa & Uludağ",
+        "tr": "Bursa ve Uludağ",
+        "ru": "Бурса и Улудаг"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-006",
+      "slug": "sapanca-masukiye",
+      "category": "tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Sapanca & Maşukiye",
+        "tr": "Sapanca ve Maşukiye",
+        "ru": "Сапанджа и Машукие"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-007",
+      "slug": "turkish-night",
+      "category": "experience",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Turkish Night Show",
+        "tr": "Türk Gecesi Gösterisi",
+        "ru": "Турецкая ночь"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-008",
+      "slug": "dinner-cruise",
+      "category": "experience",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Dinner Cruise",
+        "tr": "Akşam Yemekli Tekne Turu",
+        "ru": "Вечерний круиз с ужином"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-009",
+      "slug": "private-city-tour",
+      "category": "private_tour",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Private City Tour",
+        "tr": "Özel Şehir Turu",
+        "ru": "Индивидуальная экскурсия по городу"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TOUR-010",
+      "slug": "turkish-bath",
+      "category": "wellness",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Turkish Bath Experience",
+        "tr": "Türk Hamamı Deneyimi",
+        "ru": "Турецкий хаммам"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "tour",
+      "availability": "on_request"
+    },
+    {
+      "id": "TRF-001",
+      "slug": "istanbul-airport",
+      "category": "airport_transfer",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Istanbul Airport Transfer",
+        "tr": "İstanbul Havalimanı Transferi",
+        "ru": "Трансфер из/в аэропорт Стамбула"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "transfer",
+      "availability": "on_request"
+    },
+    {
+      "id": "TRF-002",
+      "slug": "sabiha-gokcen",
+      "category": "airport_transfer",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Sabiha Gökçen Airport Transfer",
+        "tr": "Sabiha Gökçen Havalimanı Transferi",
+        "ru": "Трансфер из/в аэропорт Сабиха Гёкчен"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "transfer",
+      "availability": "on_request"
+    },
+    {
+      "id": "TRF-003",
+      "slug": "private-chauffeur",
+      "category": "chauffeur",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Private Chauffeur Service",
+        "tr": "Özel Şoför Hizmeti",
+        "ru": "Услуги личного водителя"
+      },
+      "shortDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "fullDescription": {
+        "en": null,
+        "tr": null,
+        "ru": null
+      },
+      "duration": null,
+      "price": {
+        "amount": null,
+        "currency": "EUR",
+        "unit": null,
+        "displayMode": "on_request"
+      },
+      "media": {
+        "cover": null,
+        "gallery": [],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": null,
+      "bookingForm": "transfer",
+      "availability": "on_request"
+    }
+  ],
+  "forms": {
+    "tour": {
+      "required": [
+        "guestName",
+        "serviceId",
+        "date",
+        "guestCount"
+      ],
+      "optional": [
+        "roomNumber",
+        "preferredTime",
+        "phone",
+        "notes"
+      ]
+    },
+    "transfer": {
+      "required": [
+        "guestName",
+        "serviceId",
+        "date",
+        "time",
+        "pickupLocation",
+        "dropoffLocation",
+        "passengerCount"
+      ],
+      "optional": [
+        "roomNumber",
+        "flightNumber",
+        "luggageCount",
+        "vehiclePreference",
+        "phone",
+        "notes"
+      ]
+    }
+  },
+  "booking": {
+    "method": "whatsapp_click_to_chat",
+    "requiresGuestToPressSend": true,
+    "messageTemplate": "KA Hotel & Suites — Reservation Request\nService: {serviceTitle}\nGuest: {guestName}\nDate: {date}\nDetails: {details}\nPlease confirm availability and price."
+  }
+}
