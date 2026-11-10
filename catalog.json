@@ -173,38 +173,106 @@
       "active": true,
       "featured": true,
       "title": {
-        "en": "Old City Tour",
-        "tr": "Tarihi Yarımada Turu",
-        "ru": "Экскурсия по Старому городу"
+        "en": "Old City Istanbul Tour & Bosphorus",
+        "tr": "Tarihi Yarımada ve Boğaz Turu",
+        "ru": "Экскурсия по Старому Стамбулу и Босфору"
       },
       "shortDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "A full-day journey through Istanbul’s historic landmarks, the Bosphorus and the colorful streets of Balat.",
+        "tr": "İstanbul’un tarihi simgelerini, Boğaz’ı ve Balat’ın rengârenk sokaklarını keşfedeceğiniz dolu dolu bir gün.",
+        "ru": "Насыщенный день среди исторических достопримечательностей Стамбула, Босфора и ярких улиц Балата."
       },
       "fullDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Discover the many layers of Istanbul in one unforgettable day. Begin among the magnificent monuments of the Old City, including Hagia Sophia, the Blue Mosque and the historic Hippodrome. Then see the city from the water on a scenic Bosphorus boat tour, with lunch served on board. Continue to the remarkable Iron Church and the colorful houses, winding lanes and lively atmosphere of Balat. With hotel transfers and a guide included, enjoy a rich introduction to Istanbul’s history, culture and character.",
+        "tr": "İstanbul’un binlerce yıllık tarihini ve eşsiz güzelliklerini tek bir günde keşfedin. Ayasofya, Sultanahmet Camii ve tarihi Hipodrom ile başlayan yolculuğunuz, Boğaz’ın büyüleyici manzaraları eşliğinde tekne turu ve teknede öğle yemeğiyle devam ediyor. Ardından mimarisiyle dikkat çeken Demir Kilise’yi ziyaret edin; Balat’ın rengârenk evleri, tarihi merdivenleri ve kendine özgü sokaklarında İstanbul’un canlı kültürünü hissedin. Otel transferi ve rehber hizmeti dahil bu deneyimde şehrin unutulmaz yüzlerini bir arada yaşayın.",
+        "ru": "Откройте для себя многовековую историю и красоту Стамбула за один насыщенный день. Познакомьтесь с Айя-Софией, Голубой мечетью и историческим Ипподромом, затем полюбуйтесь городом с воды во время прогулки по Босфору с обедом на борту. Продолжите путешествие у знаменитой Железной церкви и на красочных улицах Балата с его историческими домами и лестницами. Трансфер из отеля и услуги гида включены."
       },
-      "duration": null,
+      "duration": "09:00–18:30",
       "price": {
-        "amount": null,
+        "amount": 90,
         "currency": "EUR",
-        "unit": null,
-        "displayMode": "on_request"
+        "unit": "person",
+        "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/old-city-01.jpg",
+        "gallery": [
+          "assets/old-city-02.jpg",
+          "assets/old-city-03.jpg",
+          "assets/old-city-04.jpg",
+          "assets/old-city-05.jpg",
+          "assets/old-city-06.jpg",
+          "assets/old-city-07.jpg",
+          "assets/old-city-08.jpg",
+          "assets/old-city-09.jpg",
+          "assets/old-city-10.jpg",
+          "assets/old-city-11.jpg",
+          "assets/old-city-12.jpg",
+          "assets/old-city-13.jpg",
+          "assets/old-city-14.jpg",
+          "assets/old-city-15.jpg",
+          "assets/old-city-16.jpg"
+        ],
         "videos": []
       },
-      "itinerary": [],
-      "included": [],
+      "itinerary": [
+        "Hagia Sophia",
+        "Blue Mosque",
+        "Hippodrome",
+        "Bosphorus boat tour & lunch",
+        "Iron Church",
+        "Colorful houses & stairs",
+        "Balat neighbourhood"
+      ],
+      "included": [
+        "Hotel transfer",
+        "Hagia Sophia (museum visit as described in operator brochure)",
+        "Blue Mosque",
+        "Hippodrome",
+        "Bosphorus boat tour",
+        "Lunch on the boat",
+        "Iron Church",
+        "Colorful houses & stairs",
+        "Balat neighbourhood",
+        "Guide"
+      ],
       "excluded": [],
       "pickupInformation": null,
       "bookingForm": "tour",
-      "availability": "on_request"
+      "availability": "on_request",
+      "priceNote": {
+        "en": "€90 per person · Cash only. 0–3 free; ages 3–6 receive 30% off; older than 6 pay full price. Visits and access depend on local conditions.",
+        "tr": "Kişi başı €90 · Yalnızca nakit. 0–3 yaş ücretsiz; 3–6 yaş %30 indirimli; 6 yaş üzeri tam ücret. Ziyaret ve giriş koşulları yerel duruma bağlıdır.",
+        "ru": "€90 с человека · Только наличные. 0–3 года бесплатно; 3–6 лет скидка 30%; старше 6 лет полная стоимость. Посещение объектов зависит от местных условий."
+      },
+      "variants": [
+        {
+          "id": "old-city-full-day",
+          "title": {
+            "en": "Old City & Bosphorus Full-Day Tour",
+            "tr": "Tarihi Yarımada ve Boğaz Tam Gün Turu",
+            "ru": "Старый город и Босфор — экскурсия на целый день"
+          },
+          "price": {
+            "amount": 90,
+            "currency": "EUR"
+          },
+          "departure": "09:00",
+          "return": "18:30",
+          "included": [
+            "Hotel transfer",
+            "Hagia Sophia (museum visit as described in operator brochure)",
+            "Blue Mosque",
+            "Hippodrome",
+            "Bosphorus boat tour",
+            "Lunch on the boat",
+            "Iron Church",
+            "Colorful houses & stairs",
+            "Balat neighbourhood",
+            "Guide"
+          ]
+        }
+      ]
     },
     {
       "id": "TOUR-003",
