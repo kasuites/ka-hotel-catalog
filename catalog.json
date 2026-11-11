@@ -452,8 +452,28 @@
         "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/green-bursa-01.jpg",
+        "gallery": [
+          "assets/green-bursa-02.jpg",
+          "assets/green-bursa-03.jpg",
+          "assets/green-bursa-04.jpg",
+          "assets/green-bursa-05.jpg",
+          "assets/green-bursa-06.jpg",
+          "assets/green-bursa-07.jpg",
+          "assets/green-bursa-08.jpg",
+          "assets/green-bursa-09.jpg",
+          "assets/green-bursa-10.jpg",
+          "assets/green-bursa-11.jpg",
+          "assets/green-bursa-12.jpg",
+          "assets/green-bursa-13.jpg",
+          "assets/green-bursa-14.jpg",
+          "assets/green-bursa-15.jpg",
+          "assets/green-bursa-16.jpg",
+          "assets/green-bursa-17.jpg",
+          "assets/green-bursa-18.jpg",
+          "assets/green-bursa-19.jpg",
+          "assets/green-bursa-20.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
@@ -477,7 +497,13 @@
         "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
         "ru": "Только наличные. Наличие мест и детали уточняются."
       },
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "childAgePolicy": {
+        "freeMaxAge": 2,
+        "discountMinAge": 3,
+        "discountMaxAge": 5,
+        "discountRate": 0.3
+      }
     },
     {
       "id": "TOUR-006",
@@ -508,8 +534,18 @@
         "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/sapanca-masukiye-01.jpg",
+        "gallery": [
+          "assets/sapanca-masukiye-02.jpg",
+          "assets/sapanca-masukiye-03.jpg",
+          "assets/sapanca-masukiye-04.jpg",
+          "assets/sapanca-masukiye-05.jpg",
+          "assets/sapanca-masukiye-06.jpg",
+          "assets/sapanca-masukiye-07.jpg",
+          "assets/sapanca-masukiye-08.jpg",
+          "assets/sapanca-masukiye-09.jpg",
+          "assets/sapanca-masukiye-10.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
@@ -533,7 +569,13 @@
         "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
         "ru": "Только наличные. Наличие мест и детали уточняются."
       },
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "childAgePolicy": {
+        "freeMaxAge": 2,
+        "discountMinAge": 3,
+        "discountMaxAge": 5,
+        "discountRate": 0.3
+      }
     },
     {
       "id": "TOUR-004",
@@ -564,8 +606,18 @@
         "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/cappadocia-01.jpg",
+        "gallery": [
+          "assets/cappadocia-02.jpg",
+          "assets/cappadocia-03.jpg",
+          "assets/cappadocia-04.jpg",
+          "assets/cappadocia-05.jpg",
+          "assets/cappadocia-06.jpg",
+          "assets/cappadocia-07.jpg",
+          "assets/cappadocia-08.jpg",
+          "assets/cappadocia-09.jpg",
+          "assets/cappadocia-10.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
@@ -621,8 +673,35 @@
         "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/florya-aquarium-01.jpg",
+        "gallery": [
+          "assets/florya-aquarium-02.jpg",
+          "assets/florya-aquarium-03.jpg",
+          "assets/florya-aquarium-04.jpg",
+          "assets/florya-aquarium-05.jpg",
+          "assets/florya-aquarium-06.jpg",
+          "assets/florya-aquarium-07.jpg",
+          "assets/florya-aquarium-08.jpg",
+          "assets/florya-aquarium-09.jpg",
+          "assets/florya-aquarium-10.jpg",
+          "assets/florya-aquarium-11.jpg",
+          "assets/florya-aquarium-12.jpg",
+          "assets/florya-aquarium-13.jpg",
+          "assets/florya-aquarium-14.jpg",
+          "assets/florya-aquarium-15.jpg",
+          "assets/florya-aquarium-16.jpg",
+          "assets/florya-aquarium-17.jpg",
+          "assets/florya-aquarium-18.jpg",
+          "assets/florya-aquarium-19.jpg",
+          "assets/florya-aquarium-20.jpg",
+          "assets/florya-aquarium-21.jpg",
+          "assets/florya-aquarium-22.jpg",
+          "assets/florya-aquarium-23.jpg",
+          "assets/florya-aquarium-24.jpg",
+          "assets/florya-aquarium-25.jpg",
+          "assets/florya-aquarium-26.jpg",
+          "assets/florya-aquarium-27.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
@@ -694,14 +773,14 @@
         "ru": "Парк развлечений Виаленд"
       },
       "shortDescription": {
-        "en": "Theme park fun with transport and admission.",
-        "tr": "Ulaşım ve giriş dahil eğlence parkı deneyimi.",
-        "ru": "Парк аттракционов с трансфером и входным билетом."
+        "en": "Enjoy an exciting day of roller coasters, family attractions and themed entertainment.",
+        "tr": "Hız trenleri, aile eğlenceleri ve tematik alanlarla heyecan dolu bir gün.",
+        "ru": "День американских горок, семейных аттракционов и тематических развлечений."
       },
       "fullDescription": {
-        "en": "Park admission with unlimited rides subject to park terms, guide and transportation. Two session options are available.",
-        "tr": "Park koşullarına tabi sınırsız eğlence ünitesi kullanımı, rehber ve ulaşım dahil. İki seans seçeneği mevcuttur.",
-        "ru": "Вход и неограниченное пользование аттракционами согласно правилам парка, гид и транспорт. Два варианта времени."
+        "en": "Explore Vialand, Istanbul’s popular theme park, with thrilling rides, family-friendly attractions and colorful themed areas. Choose the morning or afternoon tour. Admission with unlimited access to included rides, guide service and comfortable transport are included according to the supplied tour brochure. Ride operations and access may vary.",
+        "tr": "İstanbul’un sevilen tema parkı Vialand’da hız trenlerini, ailece eğlenebileceğiniz oyuncakları ve renkli tematik alanları keşfedin. Sabah veya öğleden sonra seansını seçebilirsiniz. Paylaşılan tur broşürüne göre giriş bileti, kapsam dahilindeki eğlence ünitelerine sınırsız erişim, rehberlik ve konforlu ulaşım dahildir. Ünitelerin çalışma durumu değişebilir.",
+        "ru": "Посетите тематический парк Vialand в Стамбуле: американские горки, семейные аттракционы и тематические зоны. Выберите утренний или дневной сеанс. По предоставленному буклету включены входной билет, неограниченный доступ к включённым аттракционам, гид и комфортабельный транспорт. Работа аттракционов может меняться."
       },
       "duration": "10:30–15:00 / 13:00–18:00",
       "price": {
@@ -711,8 +790,16 @@
         "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/vialand-01.jpg",
+        "gallery": [
+          "assets/vialand-02.jpg",
+          "assets/vialand-03.jpg",
+          "assets/vialand-04.jpg",
+          "assets/vialand-05.jpg",
+          "assets/vialand-06.png",
+          "assets/vialand-07.jpg",
+          "assets/vialand-08.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
