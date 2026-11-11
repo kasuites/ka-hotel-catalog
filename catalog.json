@@ -620,32 +620,32 @@
       "availability": "on_request"
     },
     {
-      "id": "TRF-001",
-      "slug": "istanbul-airport",
+      "id": "TRF-TAXI",
+      "slug": "standard-yellow-taxi",
       "category": "airport_transfer",
       "active": true,
       "featured": false,
       "title": {
-        "en": "Istanbul Airport Transfer",
-        "tr": "İstanbul Havalimanı Transferi",
-        "ru": "Трансфер из/в аэропорт Стамбула"
+        "en": "Standard Yellow Taxi",
+        "tr": "Normal Sarı Taksi",
+        "ru": "Обычное жёлтое такси"
       },
       "shortDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
+        "tr": "KA Hotel & Suites’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
+        "ru": "Трансфер по фиксированной цене из KA Hotel & Suites в аэропорт IST или SAW."
       },
       "fullDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Departure from KA Hotel & Suites. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
+        "tr": "KA Hotel & Suites’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
+        "ru": "Отправление из KA Hotel & Suites. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
       },
       "duration": null,
       "price": {
-        "amount": null,
+        "amount": 40,
         "currency": "EUR",
-        "unit": null,
-        "displayMode": "on_request"
+        "unit": "vehicle",
+        "displayMode": "from"
       },
       "media": {
         "cover": null,
@@ -655,37 +655,69 @@
       "itinerary": [],
       "included": [],
       "excluded": [],
-      "pickupInformation": null,
+      "pickupInformation": "KA Hotel & Suites",
       "bookingForm": "transfer",
-      "availability": "on_request"
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "ist",
+          "title": {
+            "en": "Istanbul Airport (IST)",
+            "tr": "İstanbul Havalimanı (IST)",
+            "ru": "Аэропорт Стамбула (IST)"
+          },
+          "price": {
+            "amount": 40,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        },
+        {
+          "id": "saw",
+          "title": {
+            "en": "Sabiha Gökçen Airport (SAW)",
+            "tr": "Sabiha Gökçen Havalimanı (SAW)",
+            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+          },
+          "price": {
+            "amount": 45,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        }
+      ]
     },
     {
-      "id": "TRF-002",
-      "slug": "sabiha-gokcen",
+      "id": "TRF-VITO",
+      "slug": "vip-mercedes-vito",
       "category": "airport_transfer",
       "active": true,
       "featured": false,
       "title": {
-        "en": "Sabiha Gökçen Airport Transfer",
-        "tr": "Sabiha Gökçen Havalimanı Transferi",
-        "ru": "Трансфер из/в аэропорт Сабиха Гёкчен"
+        "en": "VIP Mercedes Vito Transfer",
+        "tr": "VIP Mercedes Vito Transfer",
+        "ru": "VIP-трансфер Mercedes Vito"
       },
       "shortDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
+        "tr": "KA Hotel & Suites’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
+        "ru": "Трансфер по фиксированной цене из KA Hotel & Suites в аэропорт IST или SAW."
       },
       "fullDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Departure from KA Hotel & Suites. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
+        "tr": "KA Hotel & Suites’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
+        "ru": "Отправление из KA Hotel & Suites. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
       },
       "duration": null,
       "price": {
-        "amount": null,
+        "amount": 55,
         "currency": "EUR",
-        "unit": null,
-        "displayMode": "on_request"
+        "unit": "vehicle",
+        "displayMode": "from"
       },
       "media": {
         "cover": null,
@@ -695,49 +727,41 @@
       "itinerary": [],
       "included": [],
       "excluded": [],
-      "pickupInformation": null,
+      "pickupInformation": "KA Hotel & Suites",
       "bookingForm": "transfer",
-      "availability": "on_request"
-    },
-    {
-      "id": "TRF-003",
-      "slug": "private-chauffeur",
-      "category": "chauffeur",
-      "active": true,
-      "featured": false,
-      "title": {
-        "en": "Private Chauffeur Service",
-        "tr": "Özel Şoför Hizmeti",
-        "ru": "Услуги личного водителя"
-      },
-      "shortDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
-      },
-      "fullDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
-      },
-      "duration": null,
-      "price": {
-        "amount": null,
-        "currency": "EUR",
-        "unit": null,
-        "displayMode": "on_request"
-      },
-      "media": {
-        "cover": null,
-        "gallery": [],
-        "videos": []
-      },
-      "itinerary": [],
-      "included": [],
-      "excluded": [],
-      "pickupInformation": null,
-      "bookingForm": "transfer",
-      "availability": "on_request"
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "ist",
+          "title": {
+            "en": "Istanbul Airport (IST)",
+            "tr": "İstanbul Havalimanı (IST)",
+            "ru": "Аэропорт Стамбула (IST)"
+          },
+          "price": {
+            "amount": 55,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        },
+        {
+          "id": "saw",
+          "title": {
+            "en": "Sabiha Gökçen Airport (SAW)",
+            "tr": "Sabiha Gökçen Havalimanı (SAW)",
+            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+          },
+          "price": {
+            "amount": 60,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        }
+      ]
     }
   ],
   "forms": {
@@ -759,17 +783,15 @@
       "required": [
         "guestName",
         "serviceId",
+        "airport",
         "date",
         "time",
-        "pickupLocation",
-        "dropoffLocation",
-        "passengerCount"
+        "roomNumber",
+        "adultCount",
+        "childCount"
       ],
       "optional": [
-        "roomNumber",
-        "flightNumber",
         "luggageCount",
-        "vehiclePreference",
         "phone",
         "notes"
       ]
