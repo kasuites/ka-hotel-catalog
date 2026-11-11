@@ -279,40 +279,80 @@
       "slug": "princes-islands",
       "category": "tour",
       "active": true,
-      "featured": false,
+      "featured": true,
       "title": {
         "en": "Princes’ Islands",
         "tr": "Prens Adaları",
         "ru": "Принцевы острова"
       },
       "shortDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "A full-day island escape featuring Büyükada and Heybeliada, with a boat trip and guided visits.",
+        "tr": "Büyükada ve Heybeliada’yı tekne yolculuğu ve rehber eşliğinde keşfedeceğiniz tam günlük ada gezisi.",
+        "ru": "Однодневная поездка на Бююкада и Хейбелиада с морской прогулкой и сопровождением гида."
       },
       "fullDescription": {
-        "en": null,
-        "tr": null,
-        "ru": null
+        "en": "Leave the city bustle behind and discover the charm of Istanbul’s Princes’ Islands. Enjoy a scenic boat journey across the Sea of Marmara and spend approximately three hours on Büyükada exploring its atmospheric streets, historic houses and coastal scenery. Continue to Heybeliada for approximately one hour before returning to Istanbul. Guided service and return drop-off at the hotel are included. The schedule may vary with weather and operating conditions.",
+        "tr": "Şehrin kalabalığından uzaklaşıp İstanbul’un Prens Adaları’nın huzurlu atmosferini keşfedin. Marmara Denizi’nde keyifli bir tekne yolculuğunun ardından Büyükada’da yaklaşık üç saat geçirerek tarihi köşkleri, sokakları ve kıyı manzaralarını keşfedin. Daha sonra Heybeliada’da yaklaşık bir saat serbest zamanın tadını çıkarın. Rehberlik ve tur sonunda otele bırakma hizmeti dahildir. Program hava ve işletme koşullarına göre değişebilir.",
+        "ru": "Отдохните от городской суеты и откройте для себя Принцевы острова Стамбула. После живописной морской прогулки проведите около трёх часов на Бююкада, любуясь историческими домами, уютными улицами и морскими пейзажами. Затем посетите Хейбелиада примерно на один час. Услуги гида и обратный трансфер до отеля включены. Программа может меняться в зависимости от погоды и условий работы."
       },
-      "duration": null,
+      "duration": "09:00–18:00",
       "price": {
-        "amount": null,
+        "amount": 30,
         "currency": "EUR",
-        "unit": null,
-        "displayMode": "on_request"
+        "unit": "person",
+        "displayMode": "fixed"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/princes-islands-01.jpg",
+        "gallery": [
+          "assets/princes-islands-02.jpg",
+          "assets/princes-islands-03.jpg",
+          "assets/princes-islands-04.jpg",
+          "assets/princes-islands-05.jpg",
+          "assets/princes-islands-06.jpg",
+          "assets/princes-islands-07.jpg",
+          "assets/princes-islands-08.jpg",
+          "assets/princes-islands-09.jpg",
+          "assets/princes-islands-10.jpg",
+          "assets/princes-islands-11.jpg",
+          "assets/princes-islands-12.jpg",
+          "assets/princes-islands-13.jpg",
+          "assets/princes-islands-14.jpg",
+          "assets/princes-islands-15.jpg",
+          "assets/princes-islands-16.jpg",
+          "assets/princes-islands-17.jpg",
+          "assets/princes-islands-18.jpg",
+          "assets/princes-islands-19.jpg",
+          "assets/princes-islands-20.jpg",
+          "assets/princes-islands-21.jpg",
+          "assets/princes-islands-22.jpg",
+          "assets/princes-islands-23.jpg"
+        ],
         "videos": []
       },
-      "itinerary": [],
-      "included": [],
+      "itinerary": [
+        "09:00 – Hotel pickup / tour departure",
+        "Scenic boat journey to the Princes’ Islands",
+        "Büyükada – approximately 3 hours",
+        "Heybeliada – approximately 1 hour",
+        "Return journey and hotel drop-off by approximately 18:00"
+      ],
+      "included": [
+        "Boat trip",
+        "Guide",
+        "Büyükada visit (approximately 3 hours)",
+        "Heybeliada visit (approximately 1 hour)",
+        "Return hotel drop-off"
+      ],
       "excluded": [],
-      "pickupInformation": null,
+      "pickupInformation": "Tour begins around 09:00; pickup arrangements to be confirmed.",
       "bookingForm": "tour",
-      "availability": "on_request"
+      "availability": "on_request",
+      "priceNote": {
+        "en": "€30 per person. Cash only. Availability and final arrangements require confirmation.",
+        "tr": "Kişi başı €30. Yalnızca nakit. Müsaitlik ve son düzenlemeler teyide tabidir.",
+        "ru": "€30 с человека. Только наличные. Наличие мест и детали подтверждаются."
+      }
     },
     {
       "id": "TOUR-004",
