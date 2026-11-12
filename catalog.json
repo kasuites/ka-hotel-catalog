@@ -1026,8 +1026,12 @@
         "displayMode": "from"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/yellow-taxi-01.jpg",
+        "gallery": [
+          "assets/yellow-taxi-02.jpg",
+          "assets/yellow-taxi-03.jpg",
+          "assets/yellow-taxi-04.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
