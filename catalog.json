@@ -22,6 +22,163 @@
   ],
   "services": [
     {
+      "id": "TRF-TAXI",
+      "slug": "standard-yellow-taxi",
+      "category": "airport_transfer",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "Standard Yellow Taxi",
+        "tr": "Normal Sarı Taksi",
+        "ru": "Обычное жёлтое такси"
+      },
+      "shortDescription": {
+        "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
+        "tr": "KA Hotel & Suites’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
+        "ru": "Трансфер по фиксированной цене из KA Hotel & Suites в аэропорт IST или SAW."
+      },
+      "fullDescription": {
+        "en": "Departure from KA Hotel & Suites. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
+        "tr": "KA Hotel & Suites’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
+        "ru": "Отправление из KA Hotel & Suites. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
+      },
+      "duration": null,
+      "price": {
+        "amount": 40,
+        "currency": "EUR",
+        "unit": "vehicle",
+        "displayMode": "from"
+      },
+      "media": {
+        "cover": "assets/yellow-taxi-cover-labeled.jpg",
+        "gallery": [
+          "assets/yellow-taxi-01.jpg",
+          "assets/yellow-taxi-02.jpg",
+          "assets/yellow-taxi-03.jpg",
+          "assets/yellow-taxi-04.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": "KA Hotel & Suites",
+      "bookingForm": "transfer",
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "ist",
+          "title": {
+            "en": "Istanbul Airport (IST)",
+            "tr": "İstanbul Havalimanı (IST)",
+            "ru": "Аэропорт Стамбула (IST)"
+          },
+          "price": {
+            "amount": 40,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        },
+        {
+          "id": "saw",
+          "title": {
+            "en": "Sabiha Gökçen Airport (SAW)",
+            "tr": "Sabiha Gökçen Havalimanı (SAW)",
+            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+          },
+          "price": {
+            "amount": 45,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        }
+      ],
+      "childDiscountEnabled": false
+    },
+    {
+      "id": "TRF-VITO",
+      "slug": "vip-mercedes-vito",
+      "category": "airport_transfer",
+      "active": true,
+      "featured": false,
+      "title": {
+        "en": "VIP Mercedes Vito Transfer",
+        "tr": "VIP Mercedes Vito Transfer",
+        "ru": "VIP-трансфер Mercedes Vito"
+      },
+      "shortDescription": {
+        "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
+        "tr": "KA Hotel & Suites’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
+        "ru": "Трансфер по фиксированной цене из KA Hotel & Suites в аэропорт IST или SAW."
+      },
+      "fullDescription": {
+        "en": "Departure from KA Hotel & Suites. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
+        "tr": "KA Hotel & Suites’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
+        "ru": "Отправление из KA Hotel & Suites. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
+      },
+      "duration": null,
+      "price": {
+        "amount": 55,
+        "currency": "EUR",
+        "unit": "vehicle",
+        "displayMode": "from"
+      },
+      "media": {
+        "cover": "assets/vip-vito-cover-labeled.jpg",
+        "gallery": [
+          "assets/vip-vito-01.jpg",
+          "assets/vip-vito-02.jpg",
+          "assets/vip-vito-03.jpg",
+          "assets/vip-vito-04.jpg",
+          "assets/vip-vito-05.jpg"
+        ],
+        "videos": []
+      },
+      "itinerary": [],
+      "included": [],
+      "excluded": [],
+      "pickupInformation": "KA Hotel & Suites",
+      "bookingForm": "transfer",
+      "availability": "on_request",
+      "variants": [
+        {
+          "id": "ist",
+          "title": {
+            "en": "Istanbul Airport (IST)",
+            "tr": "İstanbul Havalimanı (IST)",
+            "ru": "Аэропорт Стамбула (IST)"
+          },
+          "price": {
+            "amount": 55,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        },
+        {
+          "id": "saw",
+          "title": {
+            "en": "Sabiha Gökçen Airport (SAW)",
+            "tr": "Sabiha Gökçen Havalimanı (SAW)",
+            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+          },
+          "price": {
+            "amount": 60,
+            "currency": "EUR"
+          },
+          "departure": "",
+          "return": "",
+          "included": []
+        }
+      ],
+      "childDiscountEnabled": false
+    },
+    {
       "id": "TOUR-001",
       "slug": "bosphorus-cruise",
       "category": "tour",
@@ -315,9 +472,9 @@
       "bookingForm": "tour",
       "availability": "on_request",
       "priceNote": {
-        "en": "€90 per person · Cash only. 0–3 free; ages 3–6 receive 30% off; older than 6 pay full price. Visits and access depend on local conditions.",
-        "tr": "Kişi başı €90 · Yalnızca nakit. 0–3 yaş ücretsiz; 3–6 yaş %30 indirimli; 6 yaş üzeri tam ücret. Ziyaret ve giriş koşulları yerel duruma bağlıdır.",
-        "ru": "€90 с человека · Только наличные. 0–3 года бесплатно; 3–6 лет скидка 30%; старше 6 лет полная стоимость. Посещение объектов зависит от местных условий."
+        "en": "€90 per adult · Cash only. For children aged 0–6, please contact reception for pricing. Visits and access depend on local conditions.",
+        "tr": "Yetişkin kişi başı €90 · Yalnızca nakit. 0–6 yaş çocuk fiyatı için resepsiyona danışınız. Ziyaret ve giriş koşulları yerel duruma bağlıdır.",
+        "ru": "€90 за взрослого · Только наличные. Стоимость для детей 0–6 лет уточняйте на ресепшене. Посещение объектов зависит от местных условий."
       },
       "variants": [
         {
@@ -896,9 +1053,9 @@
         "ru": "Пакеты турецкого хаммама от €30."
       },
       "fullDescription": {
-        "en": "Choose from three Turkish bath packages. Specific massage and bath treatments will be confirmed by the hotel before booking.",
-        "tr": "Üç farklı Türk hamamı paketinden birini seçin. Masaj ve hamam uygulamalarının ayrıntıları rezervasyon öncesinde otel tarafından teyit edilir.",
-        "ru": "Выберите один из трёх пакетов хаммама. Состав процедур и массажа уточняется до бронирования."
+        "en": "Dibekli Grand Hamam offers three main wellness packages, followed by a selection of individual massage services and optional extras.",
+        "tr": "Dibekli Grand Hamam’da üç ana paket, ayrı masaj hizmetleri ve isteğe bağlı ek uygulamalar sunulur.",
+        "ru": "Dibekli Grand Hamam предлагает три основных пакета, отдельные виды массажа и дополнительные процедуры."
       },
       "duration": null,
       "price": {
@@ -949,18 +1106,26 @@
         "videos": []
       },
       "itinerary": [],
-      "included": [],
+      "included": [
+        "15-minute sauna with main packages",
+        "Tea or coffee with main packages",
+        "Pestemal, towel, shampoo and slippers"
+      ],
       "excluded": [],
-      "pickupInformation": null,
+      "pickupInformation": {
+        "en": "Free transfer within Sultanahmet, subject to arrangement.",
+        "tr": "Sultanahmet bölgesinde ücretsiz transfer (rezervasyon sırasında ayarlanır).",
+        "ru": "Бесплатный трансфер в районе Султанахмет (по согласованию)."
+      },
       "bookingForm": "tour",
       "availability": "on_request",
       "variants": [
         {
           "id": "package-30",
           "title": {
-            "en": "Package €30",
-            "tr": "Paket €30",
-            "ru": "Пакет €30"
+            "en": "Oil Massage Program",
+            "tr": "Yağ Masajı Programı",
+            "ru": "Масляный массаж"
           },
           "price": {
             "amount": 30,
@@ -969,15 +1134,24 @@
           "departure": "",
           "return": "",
           "included": [
-            "Bath/massage package details to be confirmed"
-          ]
+            "30-minute massage",
+            "15-minute sauna",
+            "Tea or coffee"
+          ],
+          "includedTranslations": {
+            "tr": [
+              "30 dakika masaj",
+              "15 dakika sauna",
+              "Çay veya kahve"
+            ]
+          }
         },
         {
           "id": "package-40",
           "title": {
-            "en": "Package €40",
-            "tr": "Paket €40",
-            "ru": "Пакет €40"
+            "en": "Turkish Bath Program",
+            "tr": "Türk Hamamı Programı",
+            "ru": "Турецкий хаммам"
           },
           "price": {
             "amount": 40,
@@ -986,15 +1160,24 @@
           "departure": "",
           "return": "",
           "included": [
-            "Bath/massage package details to be confirmed"
-          ]
+            "30-minute full-body scrub and foam massage on hot marble",
+            "15-minute sauna",
+            "Tea or coffee"
+          ],
+          "includedTranslations": {
+            "tr": [
+              "Sıcak mermer üzerinde 30 dakika tüm vücut kese ve köpük masajı",
+              "15 dakika sauna",
+              "Çay veya kahve"
+            ]
+          }
         },
         {
           "id": "package-60",
           "title": {
-            "en": "Package €60",
-            "tr": "Paket €60",
-            "ru": "Пакет €60"
+            "en": "Full Program: Hamam + Massage",
+            "tr": "Tam Program: Hamam + Masaj",
+            "ru": "Полный пакет: хаммам и массаж"
           },
           "price": {
             "amount": 60,
@@ -1003,14 +1186,25 @@
           "departure": "",
           "return": "",
           "included": [
-            "Bath/massage package details to be confirmed"
-          ]
+            "30-minute scrub and foam massage on hot marble",
+            "30-minute full-body oil massage",
+            "15-minute sauna",
+            "Tea or coffee"
+          ],
+          "includedTranslations": {
+            "tr": [
+              "Sıcak mermer üzerinde 30 dakika kese ve köpük masajı",
+              "30 dakika tüm vücut yağ masajı",
+              "15 dakika sauna",
+              "Çay veya kahve"
+            ]
+          }
         }
       ],
       "priceNote": {
-        "en": "Pay directly at the hammam. Cash: no surcharge; credit card: +10%. Guests under 13 are not admitted.",
-        "tr": "Ödeme doğrudan hamamda yapılır. Nakit: ek ücret yok; kredi kartı: %10 ek ücret. 13 yaş altı kabul edilmez.",
-        "ru": "Оплата непосредственно в хаммаме. Наличные: без доплаты; карта: +10%. Дети младше 13 лет не допускаются."
+        "en": "Main packages €30 / €40 / €60; individual massages and extras are charged separately. Pay at the hammam: cash with no surcharge, or credit card with a 10% surcharge. Guests under 13 are not admitted.",
+        "tr": "Ana paketler €30 / €40 / €60; masajlar ve ek hizmetler ayrıca ücretlendirilir. Ödeme hamamda yapılır: nakit komisyonsuz, kredi kartı %10 ek ücretli. 13 yaş altı kabul edilmez.",
+        "ru": "Основные пакеты €30 / €40 / €60; отдельные массажи и дополнительные услуги оплачиваются отдельно. Оплата в хаммаме: наличными без комиссии или картой с доплатой 10%. Дети младше 13 лет не допускаются."
       },
       "childDiscountEnabled": false,
       "paymentPolicy": {
@@ -1018,162 +1212,255 @@
         "cashSurchargeRate": 0,
         "cardSurchargeRate": 0.1
       },
-      "minimumAge": 13
-    },
-    {
-      "id": "TRF-TAXI",
-      "slug": "standard-yellow-taxi",
-      "category": "airport_transfer",
-      "active": true,
-      "featured": false,
-      "title": {
-        "en": "Standard Yellow Taxi",
-        "tr": "Normal Sarı Taksi",
-        "ru": "Обычное жёлтое такси"
-      },
-      "shortDescription": {
-        "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
-        "tr": "KA Hotel & Suites’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
-        "ru": "Трансфер по фиксированной цене из KA Hotel & Suites в аэропорт IST или SAW."
-      },
-      "fullDescription": {
-        "en": "Departure from KA Hotel & Suites. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
-        "tr": "KA Hotel & Suites’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
-        "ru": "Отправление из KA Hotel & Suites. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
-      },
-      "duration": null,
-      "price": {
-        "amount": 40,
-        "currency": "EUR",
-        "unit": "vehicle",
-        "displayMode": "from"
-      },
-      "media": {
-        "cover": "assets/yellow-taxi-01.jpg",
-        "gallery": [
-          "assets/yellow-taxi-02.jpg",
-          "assets/yellow-taxi-03.jpg",
-          "assets/yellow-taxi-04.jpg"
-        ],
-        "videos": []
-      },
-      "itinerary": [],
-      "included": [],
-      "excluded": [],
-      "pickupInformation": "KA Hotel & Suites",
-      "bookingForm": "transfer",
-      "availability": "on_request",
-      "variants": [
+      "minimumAge": 13,
+      "provider": "Dibekli Grand Hamam",
+      "massageServices": [
         {
-          "id": "ist",
           "title": {
-            "en": "Istanbul Airport (IST)",
-            "tr": "İstanbul Havalimanı (IST)",
-            "ru": "Аэропорт Стамбула (IST)"
+            "en": "Aromatherapy Massage",
+            "tr": "Aromaterapi Masajı",
+            "ru": "Ароматерапевтический массаж"
           },
-          "price": {
-            "amount": 40,
-            "currency": "EUR"
-          },
-          "departure": "",
-          "return": "",
-          "included": []
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
         },
         {
-          "id": "saw",
           "title": {
-            "en": "Sabiha Gökçen Airport (SAW)",
-            "tr": "Sabiha Gökçen Havalimanı (SAW)",
-            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+            "en": "Deep Tissue Massage",
+            "tr": "Derin Doku Masajı",
+            "ru": "Глубокотканный массаж"
           },
-          "price": {
-            "amount": 45,
-            "currency": "EUR"
-          },
-          "departure": "",
-          "return": "",
-          "included": []
-        }
-      ],
-      "childDiscountEnabled": false
-    },
-    {
-      "id": "TRF-VITO",
-      "slug": "vip-mercedes-vito",
-      "category": "airport_transfer",
-      "active": true,
-      "featured": false,
-      "title": {
-        "en": "VIP Mercedes Vito Transfer",
-        "tr": "VIP Mercedes Vito Transfer",
-        "ru": "VIP-трансфер Mercedes Vito"
-      },
-      "shortDescription": {
-        "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
-        "tr": "KA Hotel & Suites’ten IST veya SAW havalimanına sabit fiyatlı transfer.",
-        "ru": "Трансфер по фиксированной цене из KA Hotel & Suites в аэропорт IST или SAW."
-      },
-      "fullDescription": {
-        "en": "Departure from KA Hotel & Suites. Select the airport and transfer time. The price is per vehicle, regardless of the number of adults or children. Cash only.",
-        "tr": "KA Hotel & Suites’ten hareket. Havalimanını ve transfer saatini seçin. Ücret yetişkin ve çocuk sayısından bağımsız olarak araç başınadır. Yalnızca nakit ödeme.",
-        "ru": "Отправление из KA Hotel & Suites. Выберите аэропорт и время. Цена за автомобиль не зависит от количества взрослых и детей. Только наличные."
-      },
-      "duration": null,
-      "price": {
-        "amount": 55,
-        "currency": "EUR",
-        "unit": "vehicle",
-        "displayMode": "from"
-      },
-      "media": {
-        "cover": "assets/vip-vito-01.jpg",
-        "gallery": [
-          "assets/vip-vito-02.jpg",
-          "assets/vip-vito-03.jpg",
-          "assets/vip-vito-04.jpg",
-          "assets/vip-vito-05.jpg"
-        ],
-        "videos": []
-      },
-      "itinerary": [],
-      "included": [],
-      "excluded": [],
-      "pickupInformation": "KA Hotel & Suites",
-      "bookingForm": "transfer",
-      "availability": "on_request",
-      "variants": [
-        {
-          "id": "ist",
-          "title": {
-            "en": "Istanbul Airport (IST)",
-            "tr": "İstanbul Havalimanı (IST)",
-            "ru": "Аэропорт Стамбула (IST)"
-          },
-          "price": {
-            "amount": 55,
-            "currency": "EUR"
-          },
-          "departure": "",
-          "return": "",
-          "included": []
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
         },
         {
-          "id": "saw",
           "title": {
-            "en": "Sabiha Gökçen Airport (SAW)",
-            "tr": "Sabiha Gökçen Havalimanı (SAW)",
-            "ru": "Аэропорт Сабиха Гёкчен (SAW)"
+            "en": "Anti-Stress Massage",
+            "tr": "Anti-Stres Masajı",
+            "ru": "Антистрессовый массаж"
           },
-          "price": {
-            "amount": 60,
-            "currency": "EUR"
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Swedish Massage",
+            "tr": "İsveç Masajı",
+            "ru": "Шведский массаж"
           },
-          "departure": "",
-          "return": "",
-          "included": []
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Bali Massage",
+            "tr": "Bali Masajı",
+            "ru": "Балийский массаж"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Back Massage",
+            "tr": "Sırt Masajı",
+            "ru": "Массаж спины"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
+        },
+        {
+          "title": {
+            "en": "Foot Massage",
+            "tr": "Ayak Masajı",
+            "ru": "Массаж стоп"
+          },
+          "options": [
+            {
+              "durationMinutes": 30,
+              "price": {
+                "amount": 30,
+                "currency": "EUR"
+              }
+            },
+            {
+              "durationMinutes": 60,
+              "price": {
+                "amount": 50,
+                "currency": "EUR"
+              }
+            }
+          ]
         }
       ],
-      "childDiscountEnabled": false
+      "optionalExtras": [
+        {
+          "title": {
+            "en": "Extra 30-minute massage",
+            "tr": "Ek 30 dakika masaj",
+            "ru": "Дополнительный массаж 30 минут"
+          },
+          "price": {
+            "amount": 20,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Salt peeling",
+            "tr": "Tuz peelingi",
+            "ru": "Солевой пилинг"
+          },
+          "price": {
+            "amount": 10,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Coffee peeling",
+            "tr": "Kahve peelingi",
+            "ru": "Кофейный пилинг"
+          },
+          "price": {
+            "amount": 15,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Clay or coffee face mask",
+            "tr": "Kil veya kahve yüz maskesi",
+            "ru": "Глиняная или кофейная маска для лица"
+          },
+          "price": {
+            "amount": 5,
+            "currency": "EUR"
+          }
+        },
+        {
+          "title": {
+            "en": "Cupping massage",
+            "tr": "Kupa masajı",
+            "ru": "Баночный массаж"
+          },
+          "price": {
+            "amount": 70,
+            "currency": "EUR"
+          }
+        }
+      ],
+      "venue": {
+        "name": "Dibekli Grand Hamam",
+        "address": "Grand Yavuz Hotel, Piyer Loti Cd. No:51, Emin Sinan Mah., Fatih, İstanbul",
+        "openingHours": "Every day 12:00–22:00"
+      },
+      "bookingConditions": {
+        "minimumAge": 13,
+        "arrivalMinutesBefore": 15,
+        "depositPerPerson": {
+          "amount": 5,
+          "currency": "EUR"
+        },
+        "cancellationCharge": {
+          "amount": 5,
+          "currency": "EUR"
+        },
+        "cashCurrencies": [
+          "EUR",
+          "TRY",
+          "USD"
+        ],
+        "notes": {
+          "en": "€5 deposit per person required; brochure states €5 charge for cancelled reservations. Deposit collection method not specified.",
+          "tr": "Kişi başı €5 depozito gereklidir; broşürde iptal edilen rezervasyonlar için €5 ücret belirtilir. Depozito tahsilat yöntemi belirtilmemiştir.",
+          "ru": "Требуется депозит €5 с человека; в буклете указана плата €5 за отмену. Способ внесения депозита не указан."
+        }
+      }
     }
   ],
   "forms": {
