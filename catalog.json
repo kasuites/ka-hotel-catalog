@@ -1103,8 +1103,13 @@
         "displayMode": "from"
       },
       "media": {
-        "cover": null,
-        "gallery": [],
+        "cover": "assets/vip-vito-01.jpg",
+        "gallery": [
+          "assets/vip-vito-02.jpg",
+          "assets/vip-vito-03.jpg",
+          "assets/vip-vito-04.jpg",
+          "assets/vip-vito-05.jpg"
+        ],
         "videos": []
       },
       "itinerary": [],
