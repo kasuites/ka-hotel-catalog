@@ -165,7 +165,13 @@
         "tr": "Broşür fiyatları. Yalnızca nakit ödeme kabul edilir. Son tutar ve müsaitlik teyit edilir.",
         "ru": "Цены из буклета. Оплата только наличными. Итоговая сумма и наличие мест подтверждаются."
       },
-      "childDiscountEnabled": false
+      "childDiscountEnabled": true,
+      "childAgePolicy": {
+        "freeMaxAge": 3,
+        "discountMinAge": 4,
+        "discountMaxAge": 6,
+        "discountRate": 0.3
+      }
     },
     {
       "id": "TOUR-008",
@@ -231,7 +237,8 @@
       "pickupInformation": null,
       "bookingForm": "tour",
       "availability": "on_request",
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
     },
     {
       "id": "TOUR-002",
@@ -340,7 +347,8 @@
           ]
         }
       ],
-      "childDiscountEnabled": true
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
     },
     {
       "id": "TOUR-003",
@@ -421,7 +429,13 @@
         "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
         "ru": "Только наличные. Наличие мест и детали уточняются."
       },
-      "childDiscountEnabled": false
+      "childDiscountEnabled": true,
+      "childAgePolicy": {
+        "freeMaxAge": 3,
+        "discountMinAge": 4,
+        "discountMaxAge": 6,
+        "discountRate": 0.3
+      }
     },
     {
       "id": "TOUR-005",
@@ -642,7 +656,8 @@
         "tr": "Yalnızca nakit. Müsaitlik ve hizmet ayrıntıları teyit edilir.",
         "ru": "Только наличные. Наличие мест и детали уточняются."
       },
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
     },
     {
       "id": "TOUR-FLORYA",
@@ -759,7 +774,8 @@
           ]
         }
       ],
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
     },
     {
       "id": "TOUR-VIALAND",
@@ -860,7 +876,8 @@
           ]
         }
       ],
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "childPricingMode": "reception"
     },
     {
       "id": "TOUR-010",
@@ -991,11 +1008,17 @@
         }
       ],
       "priceNote": {
-        "en": "Package inclusions require confirmation. Cash only.",
-        "tr": "Paket içerikleri teyit edilmelidir. Yalnızca nakit.",
-        "ru": "Состав пакетов уточняется. Только наличные."
+        "en": "Pay directly at the hammam. Cash: no surcharge; credit card: +10%. Guests under 13 are not admitted.",
+        "tr": "Ödeme doğrudan hamamda yapılır. Nakit: ek ücret yok; kredi kartı: %10 ek ücret. 13 yaş altı kabul edilmez.",
+        "ru": "Оплата непосредственно в хаммаме. Наличные: без доплаты; карта: +10%. Дети младше 13 лет не допускаются."
       },
-      "childDiscountEnabled": false
+      "childDiscountEnabled": false,
+      "paymentPolicy": {
+        "location": "at_venue",
+        "cashSurchargeRate": 0,
+        "cardSurchargeRate": 0.1
+      },
+      "minimumAge": 13
     },
     {
       "id": "TRF-TAXI",
