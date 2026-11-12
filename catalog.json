@@ -28,9 +28,9 @@
       "active": true,
       "featured": false,
       "title": {
-        "en": "Standard Yellow Taxi",
-        "tr": "Normal Sarı Taksi",
-        "ru": "Обычное жёлтое такси"
+        "en": "Airport Taxi",
+        "tr": "Airport Taxi",
+        "ru": "Такси в аэропорт"
       },
       "shortDescription": {
         "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
@@ -106,9 +106,9 @@
       "active": true,
       "featured": false,
       "title": {
-        "en": "VIP Mercedes Vito Transfer",
-        "tr": "VIP Mercedes Vito Transfer",
-        "ru": "VIP-трансфер Mercedes Vito"
+        "en": "VIP Airport Transfer",
+        "tr": "VIP Airport Transfer",
+        "ru": "VIP-трансфер в аэропорт"
       },
       "shortDescription": {
         "en": "Fixed-price transfer from KA Hotel & Suites to IST or SAW airport.",
@@ -134,7 +134,9 @@
           "assets/vip-vito-02.jpg",
           "assets/vip-vito-03.jpg",
           "assets/vip-vito-04.jpg",
-          "assets/vip-vito-05.jpg"
+          "assets/vip-vito-05.jpg",
+          "assets/vip-transporter-day.jpg",
+          "assets/vip-transporter-night.jpg"
         ],
         "videos": []
       },
